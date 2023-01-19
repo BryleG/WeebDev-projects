@@ -1,13 +1,14 @@
 var myVar;
 
 function myFunction() {
-  myVar = setTimeout(showPage, 9000);
+  myVar = setTimeout(showPage, 500);
 }
 
 function showPage() {
   document.getElementById("preloader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
+
 
 
 let searchBtn = document.querySelector('#search-btn');
